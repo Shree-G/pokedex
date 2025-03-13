@@ -11,7 +11,7 @@ export function SideNav() {
 
             {first151Pokemon.map((pokemon, pokIndex) => {
                 return(
-                    <button className={'nav-card'}>
+                    <button key = {pokIndex} className={'nav-card'}>
                         <p>{getFullPokedexNumber(pokIndex)}</p>
                         <p>{pokemon}</p>
                     </button>
