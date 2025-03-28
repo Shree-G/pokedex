@@ -46,7 +46,7 @@ export default function PokeCard(props) {
 
             const skillData = {
                 name: move,
-                description: desc
+                desc
             }
 
             setSkill(skillData)
@@ -120,7 +120,7 @@ export default function PokeCard(props) {
                     </div>
                     <div>
                         <h6>Description</h6>
-                        <p>{skill.description}</p>
+                        <p>{skill.desc}</p>
                     </div>
                 </Modal>
             )}
